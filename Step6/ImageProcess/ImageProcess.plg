@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ImageProcess - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/ImageProcess.res" /d "_DEBUG" /d "_AFXDLL" "C:\Home\cbowen\Classes\CSE 471\ImageProcess\ImageProcess.rc"" 
+Creating temporary file "C:\DOCUME~1\cbowen\LOCALS~1\Temp\RSPE68.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ImageProcess.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Home\cbowen\Classes\CSE 471\ImageProcess\ChildFrm.cpp"
+"C:\Home\cbowen\Classes\CSE 471\ImageProcess\HPoint.cpp"
+"C:\Home\cbowen\Classes\CSE 471\ImageProcess\Image.cpp"
+"C:\Home\cbowen\Classes\CSE 471\ImageProcess\ImageProcess.cpp"
+"C:\Home\cbowen\Classes\CSE 471\ImageProcess\ImageProcessDoc.cpp"
+"C:\Home\cbowen\Classes\CSE 471\ImageProcess\ImageProcessView.cpp"
+"C:\Home\cbowen\Classes\CSE 471\ImageProcess\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\cbowen\LOCALS~1\Temp\RSPE68.tmp" 
+Creating temporary file "C:\DOCUME~1\cbowen\LOCALS~1\Temp\RSPE69.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ImageProcess.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Home\cbowen\Classes\CSE 471\ImageProcess\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\cbowen\LOCALS~1\Temp\RSPE69.tmp" 
+Creating temporary file "C:\DOCUME~1\cbowen\LOCALS~1\Temp\RSPE6A.tmp" with contents
+[
+jpeg/jpeg.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ImageProcess.pdb" /debug /machine:I386 /nodefaultlib:"libc" /out:"Debug/ImageProcess.exe" /pdbtype:sept 
+".\Debug\ChildFrm.obj"
+".\Debug\HPoint.obj"
+".\Debug\Image.obj"
+".\Debug\ImageProcess.obj"
+".\Debug\ImageProcessDoc.obj"
+".\Debug\ImageProcessView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ImageProcess.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\cbowen\LOCALS~1\Temp\RSPE6A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+HPoint.cpp
+Image.cpp
+ImageProcess.cpp
+ImageProcessDoc.cpp
+ImageProcessView.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ImageProcess.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

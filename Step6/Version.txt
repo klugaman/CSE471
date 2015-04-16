@@ -1,0 +1,16 @@
+ImageProcess Version information
+
+1.00 10-04-99 Initial development
+
+1.01 10-06-99 Update fixes, Shrink filter
+Modified update process to avoid flicker when using the Draw filter.
+Adding CImageShrink filter as a test.
+
+1.02 2-11-03 Moved to common library routines for image processing and loading.
+
+1.03 10-08-06 Updated to Visual Studio 2005
+
+1.04 10-21-09 Updated to Visual Studio 2008
+
+1.05 10-27-10 CImage changed to CPix
+              New generate capabilities

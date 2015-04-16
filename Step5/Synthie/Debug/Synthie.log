@@ -1,0 +1,57 @@
+﻿Build started 3/9/2015 4:39:22 AM.
+     1>Project "C:\Users\Michael\Desktop\Step5\Synthie\Synthie.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Synthie.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Synthie.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AR.cpp AudioNode.cpp audio\DirSound.cpp audio\DirSoundSource.cpp audio\DirSoundStream.cpp Instrument.cpp MainFrm.cpp Note.cpp Notes.cpp Progress.cpp ProgressDlg.cpp SineWave.cpp Synthesizer.cpp Synthie.cpp SynthieView.cpp audio\Wave.cpp audio\WaveformBuffer.cpp audio\WaveformWnd.cpp ToneInstrument.cpp
+         ToneInstrument.cpp
+         WaveformWnd.cpp
+         WaveformBuffer.cpp
+         Wave.cpp
+         SynthieView.cpp
+         Synthie.cpp
+         Synthesizer.cpp
+         SineWave.cpp
+         ProgressDlg.cpp
+         Progress.cpp
+         Notes.cpp
+         Note.cpp
+         MainFrm.cpp
+         Instrument.cpp
+         DirSoundStream.cpp
+         DirSoundSource.cpp
+         DirSound.cpp
+         AudioNode.cpp
+         AR.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\Synthie.res" Synthie.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Desktop\Step5\Debug\Synthie.exe" /INCREMENTAL /NOLOGO msxml2.lib amstrmid.lib quartz.lib dsound.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Michael\Desktop\Step5\Debug\Synthie.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Desktop\Step5\Debug\Synthie.lib" /MACHINE:X86 /SAFESEH Debug\Synthie.res
+         Debug\AR.obj
+         Debug\AudioNode.obj
+         Debug\DirSound.obj
+         Debug\DirSoundSource.obj
+         Debug\DirSoundStream.obj
+         Debug\Instrument.obj
+         Debug\MainFrm.obj
+         Debug\Note.obj
+         Debug\Notes.obj
+         Debug\Progress.obj
+         Debug\ProgressDlg.obj
+         Debug\SineWave.obj
+         Debug\stdafx.obj
+         Debug\Synthesizer.obj
+         Debug\Synthie.obj
+         Debug\SynthieView.obj
+         Debug\Wave.obj
+         Debug\WaveformBuffer.obj
+         Debug\WaveformWnd.obj
+         Debug\ToneInstrument.obj
+     1>AR.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         Synthie.vcxproj -> C:\Users\Michael\Desktop\Step5\Debug\Synthie.exe
+     1>Done Building Project "C:\Users\Michael\Desktop\Step5\Synthie\Synthie.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.33
