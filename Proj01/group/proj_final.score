@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<score bpm="120" beatspermeasure="2">
+     <instrument instrument="SubtractiveSines">
+          <note measure="1" beat="2" duration="0.33" note="F4" wave="1"/>
+          <note measure="1" beat="2.33" duration="0.33" note="G4" wave="2"/>
+          <note measure="1" beat="2.6" duration="0.33" note="A4" wave="3"/>
+
+          <note measure="2" beat="1" duration="0.5" note="Bb4" wave="1"/>
+          <note measure="2" beat="1" duration="0.5" note="G4" wave="1"/>
+          <note measure="2" beat="1" duration="0.5" note="Eb4" wave="1"/>
+
+          <note measure="3" beat="1" duration="0.5" note="G4" wave="1"/>
+
+          <note measure="4" beat="1" duration="0.5" note="Bb4" wave="1"/>
+
+          <note measure="4" beat="2" duration="0.5" note="Bb4" wave="2"/>
+          <note measure="4" beat="2" duration="0.5" note="G4" wave="2"/>
+          <note measure="4" beat="2" duration="0.5" note="Eb4" wave="2"/>
+
+          <note measure="5" beat="1" duration="0.5" note="Bb4" wave="3"/>
+          <note measure="5" beat="1" duration="0.5" note="D4" wave="3"/>
+          <note measure="5" beat="1" duration="0.5" note="F4" wave="3"/>
+
+          <note measure="6" beat="1" duration="0.5" note="G4" wave="3"/>
+          <note measure="6" beat="1.5" duration="0.5" note="F#4" wave="2"/>
+          <note measure="6" beat="2" duration="0.5" note="G4" wave="1"/>
+          <note measure="6" beat="2.5" duration="0.5" note="G#4" wave="3"/>
+
+          <note measure="7" beat="1" duration="1" note="A4" wave="2"/>
+          <note measure="7" beat="2" duration="1" note="F4" wave="2"/>
+
+          <note measure="8" beat="1" duration="0.5" note="G4" wave="3"/>
+          <note measure="8" beat="1.5" duration="0.5" note="F#4" wave="1"/>
+          <note measure="8" beat="2" duration="0.5" note="G4" wave="3"/>
+          <note measure="8" beat="2.5" duration="0.5" note="G#4" wave="2"/>
+
+          <note measure="9" beat="1" duration="1" note="A4" wave="1"/>
+          <note measure="9" beat="2" duration="1" note="F4" wave="2"/>
+
+          <note measure="10" beat="1" duration="0.5" note="G4" wave="3"/>
+          <note measure="10" beat="1.5" duration="0.5" note="F#4" wave="1"/>
+          <note measure="10" beat="2" duration="0.5" note="G4" wave="3"/>
+          <note measure="10" beat="2.5" duration="0.5" note="G#4" wave="2"/>
+
+          <note measure="11" beat="1" duration="1" note="A4" wave="1"/>
+          <note measure="11" beat="2" duration="1" note="F4" wave="2"/>
+
+          <note measure="12" beat="1" duration="3" note="Bb4" wave="1"/>
+          <note measure="12" beat="1" duration="3" note="F4" wave="1"/>
+          <note measure="12" beat="1" duration="3" note="D4" wave="1"/>
+     </instrument>
+	<instrument instrument="AdditiveSynth" >
+          <note measure="13" beat="2.00" duration="0.4"  crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="F4"/>
+          <note measure="13" beat="2.33" duration="0.4"  crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="G4"/>
+          <note measure="13" beat="2.60" duration="0.33" crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="A4"/>
+
+          <note measure="14" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb4"/>
+          <note measure="14" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G4"/>
+          <note measure="14" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb4"/>
+
+          <note measure="15" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb4"/>
+          <note measure="15" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G4"/>
+          <note measure="15" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb4"/>
+
+          <note measure="16" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6 " note="Bb4"/>
+          <note measure="16" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="D4"/>
+          <note measure="16" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="F4"/>
+
+          <note measure="17" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb4"/>
+          <note measure="17" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G4"/>
+          <note measure="17" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb4"/>
+
+          <note measure="18" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="Bb4"/>
+          <note measure="18" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="D4"/>
+          <note measure="18" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="F4"/>
+
+          <note measure="19" beat="1"   duration="0.5" amplitudes="1 .8 .6 .4" note="G4" ADSR=".5 0 1.0 .5"/>
+          <note measure="19" beat="1.5" duration="0.5" amplitudes="1 .8 .6 .6 .3" note="F#4" ADSR=".5 0 1.0 .5"/>
+          <note measure="19" beat="2"   duration="0.5" amplitudes="1 .8 .6 .4" note="G4" ADSR=".5 0 1.0 .5"/>
+          <note measure="19" beat="2.5" duration="0.5" amplitudes="1 .8 .6 .4 .3" note="G#4" ADSR=".5 0 1.0 .5"/>
+
+          <note measure="20" beat="1" duration="1" amplitudes="1 .8 .6" note="A4" ADSR=".5 0 1.0 .5"/>
+          <note measure="20" beat="2" duration="1" amplitudes="1 .8 .6 .6" note="F4" ADSR=".2 .2 .8 .2" vibrato ="4.0 2.0"/>
+
+          <note measure="21" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="Bb4" ADSR =".05 .05 1.1 .1" />
+          <note measure="21" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="F4"  ADSR =".05 .05 1.1 .1" />
+          <note measure="21" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="D4"  ADSR =".05 .05 1.1 .1" />
+
+					<note measure="22" beat="2.00" duration="0.4"  crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="F5"/>
+					<note measure="22" beat="2.33" duration="0.4"  crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="G5"/>
+					<note measure="22" beat="2.60" duration="0.33" crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="A5"/>
+
+					<note measure="23" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb5"/>
+					<note measure="23" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G5"/>
+					<note measure="23" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb5"/>
+
+					<note measure="24" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb5"/>
+					<note measure="24" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G5"/>
+					<note measure="24" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb5"/>
+
+					<note measure="25" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6 " note="Bb5"/>
+					<note measure="25" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="D5"/>
+					<note measure="25" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="F5"/>
+
+					<note measure="25" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb5"/>
+					<note measure="25" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G5"/>
+					<note measure="25" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb5"/>
+
+					<note measure="26" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="Bb5"/>
+					<note measure="26" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="D5"/>
+					<note measure="26" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="F5"/>
+
+					<note measure="27" beat="1"   duration="0.5" amplitudes="1 .8 .6 .4" note="G5" ADSR=".5 0 1.0 .5"/>
+					<note measure="27" beat="1.5" duration="0.5" amplitudes="1 .8 .6 .6 .3" note="F#5" ADSR=".5 0 1.0 .5"/>
+					<note measure="27" beat="2"   duration="0.5" amplitudes="1 .8 .6 .4" note="G5" ADSR=".5 0 1.0 .5"/>
+					<note measure="27" beat="2.5" duration="0.5" amplitudes="1 .8 .6 .4 .3" note="G#5" ADSR=".5 0 1.0 .5"/>
+
+					<note measure="28" beat="1" duration="1" amplitudes="1 .8 .6" note="A5" ADSR=".5 0 1.0 .5"/>
+					<note measure="28" beat="2" duration="1" amplitudes="1 .8 .6 .6" note="F5" ADSR=".2 .2 .8 .2" vibrato ="4.0 2.0"/>
+
+					<note measure="29" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="Bb5" ADSR =".05 .05 1.1 .1" />
+					<note measure="29" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="F5"  ADSR =".05 .05 1.1 .1" />
+					<note measure="29" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="D5"  ADSR =".05 .05 1.1 .1" />
+
+     </instrument>
+
+	<instrument instrument="AdditiveSynth" Compression = "1" NoiseGate = "1">
+          <note measure="30" beat="2.00" duration="0.4"  crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="F4"/>
+          <note measure="30" beat="2.33" duration="0.4"  crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="G4"/>
+          <note measure="30" beat="2.60" duration="0.33" crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="A4"/>
+
+          <note measure="31" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb4"/>
+          <note measure="31" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G4"/>
+          <note measure="31" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb4"/>
+
+          <note measure="32" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb4"/>
+          <note measure="32" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G4"/>
+          <note measure="32" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb4"/>
+
+          <note measure="33" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6 " note="Bb4"/>
+          <note measure="33" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="D4"/>
+          <note measure="33" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="F4"/>
+
+          <note measure="34" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb4"/>
+          <note measure="34" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G4"/>
+          <note measure="34" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb4"/>
+
+          <note measure="35" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="Bb4"/>
+          <note measure="35" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="D4"/>
+          <note measure="35" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="F4"/>
+
+          <note measure="36" beat="1"   duration="0.5" amplitudes="1 .8 .6 .4" note="G4" ADSR=".5 0 1.0 .5"/>
+          <note measure="36" beat="1.5" duration="0.5" amplitudes="1 .8 .6 .6 .3" note="F#4" ADSR=".5 0 1.0 .5"/>
+          <note measure="36" beat="2"   duration="0.5" amplitudes="1 .8 .6 .4" note="G4" ADSR=".5 0 1.0 .5"/>
+          <note measure="36" beat="2.5" duration="0.5" amplitudes="1 .8 .6 .4 .3" note="G#4" ADSR=".5 0 1.0 .5"/>
+
+          <note measure="37" beat="1" duration="1" amplitudes="1 .8 .6" note="A4" ADSR=".5 0 1.0 .5"/>
+          <note measure="37" beat="2" duration="1" amplitudes="1 .8 .6 .6" note="F4" ADSR=".2 .2 .8 .2" vibrato ="4.0 2.0"/>
+
+          <note measure="38" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="Bb4" ADSR =".05 .05 1.1 .1" />
+          <note measure="38" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="F4"  ADSR =".05 .05 1.1 .1" />
+          <note measure="38" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="D4"  ADSR =".05 .05 1.1 .1" />
+
+	</instrument>
+
+	<instrument instrument="AdditiveSynth" chorus="1" flange="1">
+		<note measure="39" beat="2.00" duration="0.4"  crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="F4"/>
+		<note measure="39" beat="2.33" duration="0.4"  crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="G4"/>
+		<note measure="39" beat="2.60" duration="0.33" crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="A4"/>
+
+		<note measure="40" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb4"/>
+		<note measure="40" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G4"/>
+		<note measure="40" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb4"/>
+
+		<note measure="41" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb4"/>
+		<note measure="41" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G4"/>
+		<note measure="41" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb4"/>
+
+		<note measure="42" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6 " note="Bb4"/>
+		<note measure="42" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="D4"/>
+		<note measure="42" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="F4"/>
+
+		<note measure="42" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb4"/>
+		<note measure="42" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G4"/>
+		<note measure="42" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb4"/>
+
+		<note measure="43" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="Bb4"/>
+		<note measure="43" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="D4"/>
+		<note measure="43" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="F4"/>
+
+		<note measure="44" beat="1"   duration="0.5" amplitudes="1 .8 .6 .4" note="G4" ADSR=".5 0 1.0 .5"/>
+		<note measure="44" beat="1.5" duration="0.5" amplitudes="1 .8 .6 .6 .3" note="F#4" ADSR=".5 0 1.0 .5"/>
+		<note measure="44" beat="2"   duration="0.5" amplitudes="1 .8 .6 .4" note="G4" ADSR=".5 0 1.0 .5"/>
+		<note measure="44" beat="2.5" duration="0.5" amplitudes="1 .8 .6 .4 .3" note="G#4" ADSR=".5 0 1.0 .5"/>
+
+		<note measure="45" beat="1" duration="1" amplitudes="1 .8 .6" note="A4" ADSR=".5 0 1.0 .5"/>
+		<note measure="45" beat="2" duration="1" amplitudes="1 .8 .6 .6" note="F4" ADSR=".2 .2 .8 .2" vibrato ="4.0 2.0"/>
+
+		<note measure="16" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="Bb4" ADSR =".05 .05 1.1 .1" />
+		<note measure="16" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="F4"  ADSR =".05 .05 1.1 .1" />
+		<note measure="16" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="D4"  ADSR =".05 .05 1.1 .1" />
+	</instrument>
+	<instrument instrument="Chorus">
+		<note delay=".25" wet=".7" dry=".3" range=".5" rate="2"/>
+	</instrument>
+	<instrument instrument="Flange">
+		<note delay=".01" wet=".7" dry=".3" range=".5" rate="2" level="2"/>
+	</instrument>
+	<instrument instrument="NoiseGate">
+		<note threshold="50" wet="1" dry="0"/>
+	</instrument>
+	<instrument instrument="Compressor">
+		<note threshold="10" wet="1" dry="0" ratio="2"/>
+	</instrument>
+		<instrument instrument="Drum" type="bass">
+	      <note measure="1" beat="2.00" duration="0.4"   note="F3"/>
+          <note measure="46" beat="2.33" duration="0.4"  note="G3"/>
+          <note measure="46" beat="2.60" duration="0.33"  note="A3"/>
+
+          <note measure="47" beat="1" duration="0.5"  note="Bb3"/>
+          <note measure="47" beat="1" duration="0.5"  note="G3"/>
+          <note measure="47" beat="1" duration="0.5"  note="Eb3"/>
+
+          <note measure="48" beat="1" duration="0.5"  note="Bb3"/>
+          <note measure="48" beat="1" duration="0.5"  note="G3"/>
+          <note measure="48" beat="1" duration="0.5"  note="Eb3"/>
+
+          <note measure="49" beat="1" duration="0.5"  note="Bb3"/>
+          <note measure="49" beat="1" duration="0.5"  note="D3"/>
+          <note measure="49" beat="1" duration="0.5"  note="F3"/>
+
+          <note measure="50" beat="2" duration="0.5"  note="Bb3"/>
+          <note measure="50" beat="2" duration="0.5"  note="G3"/>
+          <note measure="50" beat="2" duration="0.5"  note="Eb3"/>
+
+          <note measure="51" beat="1" duration="0.5"  note="Bb3"/>
+          <note measure="51" beat="1" duration="0.5"  note="D3"/>
+          <note measure="51" beat="1" duration="0.5"  note="F3"/>
+
+          <note measure="52" beat="1"   duration="0.5"  note="G3" />
+          <note measure="52" beat="1.5" duration="0.5"  note="F#3" />
+          <note measure="52" beat="2"   duration="0.5"  note="G3" />
+          <note measure="52" beat="2.5" duration="0.5" note="G#3" />
+
+          <note measure="53" beat="1" duration="1" note="A3" />
+          <note measure="53" beat="2" duration="1" note="F3" />
+
+          <note measure="54" beat="1" duration="3" note="Bb3"  />
+          <note measure="54" beat="1" duration="3"  note="F3"   />
+          <note measure="54" beat="1" duration="3" note="D3"   />
+		  
+          <note measure="55" beat="2.00" duration="0.4"   note="F4"/>
+          <note measure="55" beat="2.33" duration="0.4"  note="G4"/>
+          <note measure="55" beat="2.60" duration="0.33"  note="A4"/>
+
+          <note measure="56" beat="1" duration="0.5"  note="Bb4"/>
+          <note measure="56" beat="1" duration="0.5"  note="G4"/>
+          <note measure="56" beat="1" duration="0.5"  note="Eb4"/>
+
+          <note measure="57" beat="1" duration="0.5"  note="Bb4"/>
+          <note measure="57" beat="1" duration="0.5"  note="G4"/>
+          <note measure="57" beat="1" duration="0.5"  note="Eb4"/>
+
+          <note measure="58" beat="1" duration="0.5"  note="Bb4"/>
+          <note measure="58" beat="1" duration="0.5"  note="D4"/>
+          <note measure="58" beat="1" duration="0.5"  note="F4"/>
+
+          <note measure="59" beat="2" duration="0.5"  note="Bb4"/>
+          <note measure="59" beat="2" duration="0.5"  note="G4"/>
+          <note measure="59" beat="2" duration="0.5"  note="Eb4"/>
+
+          <note measure="60" beat="1" duration="0.5"  note="Bb4"/>
+          <note measure="60" beat="1" duration="0.5"  note="D4"/>
+          <note measure="60" beat="1" duration="0.5"  note="F4"/>
+
+          <note measure="61" beat="1"   duration="0.5"  note="G4" />
+          <note measure="61" beat="1.5" duration="0.5"  note="F#4" />
+          <note measure="61" beat="2"   duration="0.5"  note="G4" />
+          <note measure="61" beat="2.5" duration="0.5" note="G#4" />
+
+          <note measure="62" beat="1" duration="1" note="A4" />
+          <note measure="62" beat="2" duration="1" note="F4" />
+
+          <note measure="63" beat="1" duration="3" note="Bb4"  />
+          <note measure="63" beat="1" duration="3"  note="F4"   />
+          <note measure="63" beat="1" duration="3" note="D4"   />
+
+     </instrument>
+		<instrument instrument="Wave">
+		<note measure="64" beat="1" file="drumriff.wav" />
+		<note measure="64" beat="1" file="mk64_countdown.wav" />
+		<note measure="65" beat="1" file="ssbm_super_mushroom.wav" />
+		<note measure="66" beat="3" file="smb_pipe.wav" />
+		<note measure="67" beat="2" file="smb_coin.wav" />
+		<note measure="67" beat="4" file="smb_1-up.wav" />
+		<note measure="68" beat="1" file="ssbm_hammer_theme.wav" />
+		<note measure="68" beat="1" file="sm64_enter_course.wav" />
+		<note measure="69" beat="1" pitchMod="sm64_enter_course.wav" />
+		<note measure="69" beat="3" pitchMod="drumriff.wav" />
+		<note measure="69" beat="3" file="ssbm_super_mushroom.wav" />
+		<note measure="70" beat="3" file="smb_1-up.wav" />
+		<note measure="71" beat="1" file="smb_pipe.wav" />
+		<note measure="72" beat="3" file="ssbm_hammer_theme.wav" />
+		<note measure="73" beat="1" file="ssbm_super_mushroom.wav" />
+		<note measure="74" beat="1" file="smb_coin.wav" />
+		<note measure="74" beat="3" file="sm64_high_score.wav" />
+	</instrument>
+</score>
+
+
+

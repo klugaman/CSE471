@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<score bpm="120" beatspermeasure="2">
+	<instrument instrument="AdditiveSynth" Compression = "1" NoiseGate = "1">
+          <note measure="1" beat="2.00" duration="0.4"  crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="F4"/>
+          <note measure="1" beat="2.33" duration="0.4"  crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="G4"/>
+          <note measure="1" beat="2.60" duration="0.33" crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="A4"/>
+
+          <note measure="2" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb4"/>
+          <note measure="2" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G4"/>
+          <note measure="2" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb4"/>
+
+          <note measure="3" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb4"/>
+          <note measure="3" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G4"/>
+          <note measure="3" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb4"/>
+
+          <note measure="4" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6 " note="Bb4"/>
+          <note measure="4" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="D4"/>
+          <note measure="4" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="F4"/>
+
+          <note measure="4" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb4"/>
+          <note measure="4" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G4"/>
+          <note measure="4" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb4"/>
+
+          <note measure="5" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="Bb4"/>
+          <note measure="5" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="D4"/>
+          <note measure="5" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="F4"/>
+
+          <note measure="6" beat="1"   duration="0.5" amplitudes="1 .8 .6 .4" note="G4" ADSR=".5 0 1.0 .5"/>
+          <note measure="6" beat="1.5" duration="0.5" amplitudes="1 .8 .6 .6 .3" note="F#4" ADSR=".5 0 1.0 .5"/>
+          <note measure="6" beat="2"   duration="0.5" amplitudes="1 .8 .6 .4" note="G4" ADSR=".5 0 1.0 .5"/>
+          <note measure="6" beat="2.5" duration="0.5" amplitudes="1 .8 .6 .4 .3" note="G#4" ADSR=".5 0 1.0 .5"/>
+
+          <note measure="7" beat="1" duration="1" amplitudes="1 .8 .6" note="A4" ADSR=".5 0 1.0 .5"/>
+          <note measure="7" beat="2" duration="1" amplitudes="1 .8 .6 .6" note="F4" ADSR=".2 .2 .8 .2" vibrato ="4.0 2.0"/>
+
+          <note measure="8" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="Bb4" ADSR =".05 .05 1.1 .1" />
+          <note measure="8" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="F4"  ADSR =".05 .05 1.1 .1" />
+          <note measure="8" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="D4"  ADSR =".05 .05 1.1 .1" />
+
+	</instrument>
+
+	<instrument instrument="AdditiveSynth" chorus="1" flange="1">
+		<note measure="9" beat="2.00" duration="0.4"  crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="F4"/>
+		<note measure="9" beat="2.33" duration="0.4"  crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="G4"/>
+		<note measure="9" beat="2.60" duration="0.33" crossFadeIn=".15" crossFadeOut=".15" amplitudes="1 .8 .6 " note="A4"/>
+
+		<note measure="10" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb4"/>
+		<note measure="10" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G4"/>
+		<note measure="10" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb4"/>
+
+		<note measure="11" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb4"/>
+		<note measure="11" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G4"/>
+		<note measure="11" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb4"/>
+
+		<note measure="12" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6 " note="Bb4"/>
+		<note measure="12" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="D4"/>
+		<note measure="12" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="F4"/>
+
+		<note measure="12" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Bb4"/>
+		<note measure="12" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="G4"/>
+		<note measure="12" beat="2" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .4" note="Eb4"/>
+
+		<note measure="13" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="Bb4"/>
+		<note measure="13" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="D4"/>
+		<note measure="13" beat="1" duration="0.5" ADSR=".1 0 1.0 .9" amplitudes="1 .8 .6 .6" note="F4"/>
+
+		<note measure="14" beat="1"   duration="0.5" amplitudes="1 .8 .6 .4" note="G4" ADSR=".5 0 1.0 .5"/>
+		<note measure="14" beat="1.5" duration="0.5" amplitudes="1 .8 .6 .6 .3" note="F#4" ADSR=".5 0 1.0 .5"/>
+		<note measure="14" beat="2"   duration="0.5" amplitudes="1 .8 .6 .4" note="G4" ADSR=".5 0 1.0 .5"/>
+		<note measure="14" beat="2.5" duration="0.5" amplitudes="1 .8 .6 .4 .3" note="G#4" ADSR=".5 0 1.0 .5"/>
+
+		<note measure="15" beat="1" duration="1" amplitudes="1 .8 .6" note="A4" ADSR=".5 0 1.0 .5"/>
+		<note measure="15" beat="2" duration="1" amplitudes="1 .8 .6 .6" note="F4" ADSR=".2 .2 .8 .2" vibrato ="4.0 2.0"/>
+
+		<note measure="16" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="Bb4" ADSR =".05 .05 1.1 .1" />
+		<note measure="16" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="F4"  ADSR =".05 .05 1.1 .1" />
+		<note measure="16" beat="1" duration="3" amplitudes="1 .8 .6 .6" note="D4"  ADSR =".05 .05 1.1 .1" />
+	</instrument>
+	<instrument instrument="Chorus">
+		<note delay=".25" wet=".7" dry=".3" range=".5" rate="2"/>
+	</instrument>
+	<instrument instrument="Flange">
+		<note delay=".01" wet=".7" dry=".3" range=".5" rate="2" level="2"/>
+	</instrument>
+	<instrument instrument="NoiseGate">
+		<note threshold="50" wet="1" dry="0"/>
+	</instrument>
+	<instrument instrument="Compressor">
+		<note threshold="10" wet="1" dry="0" ratio="2"/>
+	</instrument>
+</score>

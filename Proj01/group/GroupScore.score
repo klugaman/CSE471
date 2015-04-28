@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<score bpm="140" beatspermeasure="4">
+	<instrument instrument="Additive">
+		<note measure="1" beat="1" duration="1.5" note="C3"/>
+		<note measure="1" beat="2.5" duration="1.5" note="C3"/>
+
+		<note measure="2" beat="1" duration="1.5" note="D3"/>
+		<note measure="2" beat="2.5" duration="1.5" note="D3"/>
+
+		<note measure="3" beat="1" duration="1.5" note="G3"/>
+		<note measure="3" beat="2.5" duration="1.5" note="G3"/>
+
+		<note measure="4" beat="1" duration="1.5" note="G3"/>
+		<note measure="4" beat="2" duration=".5" note="E3"/>
+		<note measure="4" beat="2.5" duration=".5" note="E3"/>
+		<note measure="4" beat="3" duration=".5" note="E3"/>
+		<note measure="4" beat="3.5" duration=".5" note="E3"/>
+		<note measure="4" beat="4" duration=".5" note="G3"/>
+		<note measure="4" beat="4.5" duration=".5" note="E3"/>
+
+		<note measure="5" beat="1" duration="1.5" note="C3"/>
+		<note measure="5" beat="2.5" duration="1.5" note="C3"/>
+
+		<note measure="6" beat="1" duration="1.5" note="D3"/>
+		<note measure="6" beat="2.5" duration="1.5" note="D3"/>
+
+        <note measure="7" beat="1" duration="16" note="G1"/>
+
+        <harmonics>1.0 0.0 0.0 0.1 0.0 0.1 0.2 0.21</harmonics>
+        <note measure="7" beat="2.5" duration="2" note="E3"/>
+        <note measure="7" beat="3" duration="2" note="G3"/>
+        <note measure="8" beat="1" duration="2" note="B4"/>
+        <note measure="8" beat="2.5" duration="2" note="G3"/>
+        <harmonics>1.0 0.25 0.2 0.1 0.05 0.025 0.005 0.001</harmonics>
+
+
+
+		<note measure="9" beat="1" duration="1.5" note="C3"/>
+		<note measure="9" beat="2.5" duration="1.5" note="C3"/>
+
+		<note measure="10" beat="1" duration="1.5" note="D3"/>
+		<note measure="10" beat="2.5" duration="1.5" note="D3"/>
+
+		<note measure="11" beat="1" duration="1.5" note="G3"/>
+		<note measure="11" beat="2.5" duration="1.5" note="G3"/>
+
+		<note measure="12" beat="1" duration="1.5" note="G3"/>
+		<note measure="12" beat="2" duration=".5" note="E3"/>
+		<note measure="12" beat="2.5" duration=".5" note="E3"/>
+		<note measure="12" beat="3" duration=".5" note="E3"/>
+		<note measure="12" beat="3.5" duration=".5" note="E3"/>
+		<note measure="12" beat="4" duration=".5" note="G3"/>
+		<note measure="12" beat="4.5" duration=".5" note="E3"/>
+
+		<note measure="13" beat="1" duration="1.5" note="C3"/>
+		<note measure="13" beat="2.5" duration="1.5" note="C3"/>
+
+		<note measure="14" beat="1" duration="1.5" note="D3"/>
+		<note measure="14" beat="2.5" duration="1.5" note="D3"/>
+
+        <note measure="15" beat="1" duration="16" note="G1"/>
+
+        <harmonics>1.0 0.0 0.0 0.1 0.0 0.1 0.2 0.21</harmonics>
+        <note measure="15" beat="2.5" duration="2" note="E3"/>
+        <note measure="15" beat="3" duration="2" note="G3"/>
+        <note measure="16" beat="1" duration="2" note="B4"/>
+        <note measure="16" beat="2.5" duration="2" note="G3"/>
+        <harmonics>1.0 0.25 0.2 0.1 0.05 0.025 0.005 0.001</harmonics>
+	</instrument>
+
+
+
+    <instrument instrument="DrumKit">
+        <note measure="1" beat="1" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="1" beat="2" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="1" beat="2.5" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+        <note measure="1" beat="3" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="1" beat="4" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="1" beat="4" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+
+        <note measure="2" beat="1" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="2" beat="2" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="2" beat="2.5" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+        <note measure="2" beat="3" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="2" beat="4" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="2" beat="4" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+
+        <note measure="3" beat="1" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="3" beat="2" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="3" beat="2.5" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+        <note measure="3" beat="3" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="3" beat="4" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="3" beat="4" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+
+        <note measure="4" beat="1" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="4" beat="2" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="4" beat="2.5" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+        <note measure="4" beat="3" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="4" beat="4" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="4" beat="4" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+
+        <note measure="5" beat="1" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="5" beat="2" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="5" beat="2.5" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+        <note measure="5" beat="3" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="5" beat="4" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="5" beat="4" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+
+        <note measure="6" beat="1" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="6" beat="2" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="6" beat="2.5" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+        <note measure="6" beat="3" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="6" beat="4" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="6" beat="4" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+
+        <note measure="7" beat="1" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="7" beat="2" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="7" beat="2.5" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+        <note measure="7" beat="3" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="7" beat="4" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="7" beat="4" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+
+        <note measure="8" beat="1" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="8" beat="2" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="8" beat="2.5" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+        <note measure="8" beat="3" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="8" beat="4" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="8" beat="4" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+
+
+
+
+        <note measure="9" beat="1" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="9" beat="2" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="9" beat="2.5" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+        <note measure="9" beat="3" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="9" beat="4" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="9" beat="4" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+
+        <note measure="10" beat="1" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="10" beat="2" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="10" beat="2.5" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+        <note measure="10" beat="3" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="10" beat="4" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="10" beat="4" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+
+        <note measure="11" beat="1" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="11" beat="2" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="11" beat="2.5" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+        <note measure="11" beat="3" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="11" beat="4" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="11" beat="4" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+
+        <note measure="12" beat="1" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="12" beat="2" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="12" beat="2.5" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+        <note measure="12" beat="3" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="12" beat="4" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="12" beat="4" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+
+        <note measure="13" beat="1" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="13" beat="2" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="13" beat="2.5" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+        <note measure="13" beat="3" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="13" beat="4" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="13" beat="4" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+
+        <note measure="14" beat="1" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="14" beat="2" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="14" beat="2.5" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+        <note measure="14" beat="3" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="14" beat="4" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="14" beat="4" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+
+        <note measure="15" beat="1" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="15" beat="2" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="15" beat="2.5" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+        <note measure="15" beat="3" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="15" beat="4" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="15" beat="4" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+
+        <note measure="16" beat="1" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="16" beat="2" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="16" beat="2.5" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+        <note measure="16" beat="3" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="16" beat="4" duration="1" note="A2" file="./sounds/step_bass.wav"/>
+        <note measure="16" beat="4" duration=".5" note="A2" file="./sounds/step_snare.wav"/>
+    </instrument>
+
+
+
+    <instrument instrument="Subtractive">
+        <note measure="1" beat="3" duration=".5" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+        <note measure="1" beat="3.5" duration=".5" type="triangle" pitch="0.05" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.2" />
+        <note measure="1" beat="4" duration="1" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+
+        <note measure="2" beat="3" duration=".5" type="triangle" pitch="0.05" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+        <note measure="2" beat="3.5" duration=".5" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.2" />
+        <note measure="2" beat="4" duration="1" type="triangle" pitch="0.05" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+
+        <note measure="3" beat="3" duration=".5" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+        <note measure="3" beat="3.5" duration=".5" type="triangle" pitch="0.05" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.2" />
+        <note measure="3" beat="4" duration="1" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+
+
+        <note measure="5" beat="3" duration=".5" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+        <note measure="5" beat="3.5" duration=".5" type="triangle" pitch="0.05" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.2" />
+        <note measure="5" beat="4" duration="1" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+
+        <note measure="6" beat="3" duration=".5" type="triangle" pitch="0.05" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+        <note measure="6" beat="3.5" duration=".5" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.2" />
+        <note measure="6" beat="4" duration="1" type="triangle" pitch="0.05" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+
+        <note measure="7" beat="3" duration=".5" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+        <note measure="7" beat="3.5" duration=".5" type="triangle" pitch="0.05" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.2" />
+        <note measure="7" beat="4" duration="1" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+
+        <note measure="8" beat="1" duration="2" type="saw" pitch="0.25" filter="0.1" attack ="0.1" release="0.9" bandwidth="0.1" />
+        <note measure="8" beat="1" duration="2" type="saw" pitch="0.15" filter="0.1" attack ="0.1" release="0.9" bandwidth="0.2" />
+        <note measure="8" beat="1.5" duration="2" type="square" pitch="0.25" filter="0.1" attack ="0.09" release="0.8" bandwidth="0.1" />
+        <note measure="8" beat="1.5" duration="2" type="square" pitch="0.15" filter="0.1" attack ="0.09" release="0.8" bandwidth="0.2" />
+
+
+
+        <note measure="9" beat="3" duration=".5" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+        <note measure="9" beat="3.5" duration=".5" type="triangle" pitch="0.05" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.2" />
+        <note measure="9" beat="4" duration="1" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+
+        <note measure="10" beat="3" duration=".5" type="triangle" pitch="0.05" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+        <note measure="10" beat="3.5" duration=".5" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.2" />
+        <note measure="10" beat="4" duration="1" type="triangle" pitch="0.05" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+
+        <note measure="11" beat="3" duration=".5" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+        <note measure="11" beat="3.5" duration=".5" type="triangle" pitch="0.05" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.2" />
+        <note measure="11" beat="4" duration="1" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+
+
+        <note measure="13" beat="3" duration=".5" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+        <note measure="13" beat="3.5" duration=".5" type="triangle" pitch="0.05" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.2" />
+        <note measure="13" beat="4" duration="1" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+
+        <note measure="14" beat="3" duration=".5" type="triangle" pitch="0.05" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+        <note measure="14" beat="3.5" duration=".5" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.2" />
+        <note measure="14" beat="4" duration="1" type="triangle" pitch="0.05" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+
+        <note measure="15" beat="3" duration=".5" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+        <note measure="15" beat="3.5" duration=".5" type="triangle" pitch="0.05" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.2" />
+        <note measure="15" beat="4" duration="1" type="triangle" pitch="0.15" filter="0.1" attack ="0.05" release="0.4" bandwidth="0.3" />
+
+
+
+        <note measure="16" beat="1" duration="2" type="saw" pitch="0.25" filter="0.1" attack ="0.1" release="0.9" bandwidth="0.1" />
+        <note measure="16" beat="1" duration="2" type="saw" pitch="0.15" filter="0.1" attack ="0.1" release="0.9" bandwidth="0.2" />
+        <note measure="16" beat="1.5" duration="2" type="square" pitch="0.25" filter="0.1" attack ="0.09" release="0.8" bandwidth="0.1" />
+        <note measure="16" beat="1.5" duration="2" type="square" pitch="0.15" filter="0.1" attack ="0.09" release="0.8" bandwidth="0.2" />
+    </instrument>
+
+
+    <instrument instrument="ChorusInstrument">
+        <note measure="1" beat="1" duration="3" note="E4"/>
+        <note measure="2" beat="1" duration="3" note="E4"/>
+    </instrument>
+</score>
