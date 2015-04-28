@@ -1,0 +1,40 @@
+// Call to open the processing output
+    if(!ProcessBegin())
+        return;
+
+    short audio[2];
+
+    const int QUEUESIZE = 200000;
+	const double DELAY = 1;
+
+    std::vector<short> queue;
+    queue.resize(QUEUESIZE);
+
+    int wrloc = 0;
+
+    double time = 0;
+
+    for(int i=0;  i<SampleFrames();  i++, time += 1./SampleRate())
+    {                 
+        ProcessReadFrame(audio);
+
+        wrloc = (wrloc + 2) % QUEUESIZE;
+        queue[wrloc] = audio[0];
+        queue[wrloc+1] = audio[1];
+
+		int delaylength = int((0.006 + sin(0.25 * 2 * M_PI * time) * 0.004 * SampleRate() + 0.5)) * 2;
+        int rdloc = (wrloc + QUEUESIZE - delaylength) % QUEUESIZE;
+
+		audio[0] = RangeBound(audio[0] + queue[rdloc++]); ///add range bond
+		audio[1] = RangeBound(audio[1] + queue[rdloc]);
+
+        ProcessWriteFrame(audio);
+
+        // The progress control
+        if(!ProcessProgress(double(i) / SampleFrames()))
+            break;
+    }
+
+
+    // Call to close the generator output
+    ProcessEnd();

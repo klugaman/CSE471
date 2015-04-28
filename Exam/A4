@@ -1,0 +1,30 @@
+  if (!GenerateBegin())
+    return;
+
+  double radians = 0;
+  short audio[2];
+
+  for (double time = 0.; time < 5.0; time += 1. / SampleRate())
+  {
+    double freq = 100 + (4000 - 100) * time / 5;
+    short sample = short(m_amplitude * sin(radians));
+    audio[0] = audio[1] = sample;
+    radians += (2 * M_PI * freq) / SampleRate();
+    GenerateWriteFrame(audio);
+    // The progress control
+    if (!GenerateProgress(time / m_duration))
+      break;
+  }
+
+  for (double time = 5.; time < 10.; time += 1. / SampleRate())
+  {
+    double freq = 4000 - (4000 - 100) * (time-5) / 5;
+    short sample = short(m_amplitude * sin(radians));
+    audio[0] = audio[1] = sample;
+    radians += (2 * M_PI * freq) / SampleRate();
+    GenerateWriteFrame(audio);
+    // The progress control
+    if (!GenerateProgress(time / m_duration))
+      break;
+  }
+  GenerateEnd();

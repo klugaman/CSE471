@@ -1,0 +1,32 @@
+// Call to open the processing output
+   if(!ProcessBegin())
+      return;
+ 
+   short audio[2];
+   short prev_sample = 0;
+   double rate = 0.0;
+   double sample = 0.0;
+   double time = 0.0;
+   int i = 0;
+   vector<short> wavetable;
+   for(int j = 0; j<SampleFrames(); j++){
+	   ProcessReadFrame(audio);
+	   wavetable.push_back(audio[0]);
+   }
+ 
+   while(i<SampleFrames())
+   {      
+	  rate = 1 + 0.1*sin(2*M_PI*3*time);
+	  sample+= rate;
+	  audio[0] = wavetable[i];
+      ProcessWriteFrame(audio);
+	  i = int(sample+0.5);
+	  time += 1./SampleRate();
+      // The progress control
+      if(!ProcessProgress(double(i) / SampleFrames()))
+         break;
+   }
+ 
+   
+   // Call to close the generator output
+   ProcessEnd();	

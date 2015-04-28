@@ -1,0 +1,41 @@
+  // TODO: Add your command handler code here
+  if (!GenerateBegin())
+    return;
+
+  short audio[2];
+  double depth = 0.1;
+  double amplitude = 0;
+  double radians1 = 0;
+  double radians2 = 0;
+  double time = 0;
+
+  for (; time < 5.00; time += 1./ SampleRate())
+  {
+    double diff = 1 + depth * sin(radians2);
+    double freq = 0.1 + (2.9) * time / 5;
+    short sample = short(3000 * diff * sin(radians1));
+    audio[0] = audio[1] = sample;
+    radians1 += (2 * M_PI * (587.33)) / SampleRate();
+    radians2 += (2 * M_PI * freq) / SampleRate();
+    GenerateWriteFrame(audio);
+    // The progress control
+    if (!GenerateProgress(time / m_duration))
+      break;
+  }
+
+  for (; time < 10.00; time += 1. / SampleRate())
+  {
+    double diff = 1 + depth * sin(radians2);
+    double freq = 3 - (2.9) * (time-5) / 5;
+    short sample = short(3000 * diff * sin(radians1));
+    audio[0] = audio[1] = sample;
+    radians1 += (2 * M_PI * (587.33)) / SampleRate();
+    radians2 += (2 * M_PI * freq) / SampleRate();
+    GenerateWriteFrame(audio);
+    // The progress control
+    if (!GenerateProgress(time / m_duration))
+      break;
+  }
+
+   // Call to close the generator output
+  GenerateEnd();
