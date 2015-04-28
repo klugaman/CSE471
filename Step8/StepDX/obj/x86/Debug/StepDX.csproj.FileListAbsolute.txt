@@ -1,0 +1,47 @@
+C:\Users\Patricia Huang\Desktop\StepDX\StepDX\bin\x86\Debug\StepDX.exe
+C:\Users\Patricia Huang\Desktop\StepDX\StepDX\bin\x86\Debug\StepDX.pdb
+C:\Users\Patricia Huang\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.Properties.Resources.resources
+C:\Users\Patricia Huang\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.csproj.GenerateResource.Cache
+C:\Users\Patricia Huang\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.exe
+C:\Users\Patricia Huang\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.pdb
+C:\Users\Patricia Huang\Desktop\StepDX\StepDX\bin\x86\Debug\StepDX.exe.config
+C:\Users\Patricia Huang\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.Game.resources
+C:\Users\Patricia Huang\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.csprojResolveAssemblyReference.cache
+\\filer1.egr.msu.edu\cifs.homedir\dotwindows\Desktop\StepDX\StepDX\bin\x86\Debug\StepDX.exe.config
+\\filer1.egr.msu.edu\cifs.homedir\dotwindows\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.exe
+\\filer1.egr.msu.edu\cifs.homedir\dotwindows\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.pdb
+\\filer1.egr.msu.edu\cifs.homedir\dotwindows\Desktop\StepDX\StepDX\bin\x86\Debug\StepDX.exe
+\\filer1.egr.msu.edu\cifs.homedir\dotwindows\Desktop\StepDX\StepDX\bin\x86\Debug\StepDX.pdb
+\\filer1.egr.msu.edu\cifs.homedir\dotwindows\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.csprojResolveAssemblyReference.cache
+\\filer1.egr.msu.edu\cifs.homedir\dotwindows\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.Game.resources
+\\filer1.egr.msu.edu\cifs.homedir\dotwindows\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.Properties.Resources.resources
+\\filer1.egr.msu.edu\cifs.homedir\dotwindows\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.csproj.GenerateResource.Cache
+H:\Documents\CSE471\StepDX\StepDX\bin\x86\Debug\StepDX.exe.config
+H:\Documents\CSE471\StepDX\StepDX\obj\x86\Debug\StepDX.exe
+H:\Documents\CSE471\StepDX\StepDX\obj\x86\Debug\StepDX.pdb
+C:\Users\TEMP.CSE.021\Desktop\StepDX\StepDX\bin\x86\Debug\StepDX.exe.config
+C:\Users\TEMP.CSE.021\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.exe
+C:\Users\TEMP.CSE.021\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.pdb
+C:\Users\TEMP.CSE.021\Desktop\StepDX\StepDX\bin\x86\Debug\StepDX.exe
+C:\Users\TEMP.CSE.021\Desktop\StepDX\StepDX\bin\x86\Debug\StepDX.pdb
+C:\Users\TEMP.CSE.021\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.csprojResolveAssemblyReference.cache
+C:\Users\TEMP.CSE.021\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.Game.resources
+C:\Users\TEMP.CSE.021\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.Properties.Resources.resources
+C:\Users\TEMP.CSE.021\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.csproj.GenerateResource.Cache
+C:\Users\huangbe1\Desktop\StepDX\StepDX\bin\x86\Debug\StepDX.exe.config
+C:\Users\huangbe1\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.exe
+C:\Users\huangbe1\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.pdb
+C:\Users\huangbe1\Desktop\StepDX\StepDX\bin\x86\Debug\StepDX.exe
+C:\Users\huangbe1\Desktop\StepDX\StepDX\bin\x86\Debug\StepDX.pdb
+C:\Users\huangbe1\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.Game.resources
+C:\Users\huangbe1\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.Properties.Resources.resources
+C:\Users\huangbe1\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.csproj.GenerateResource.Cache
+C:\Users\Michael\Desktop\StepDX\StepDX\bin\x86\Debug\StepDX.exe.config
+C:\Users\Michael\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.exe
+C:\Users\Michael\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.pdb
+C:\Users\Michael\Desktop\StepDX\StepDX\bin\x86\Debug\StepDX.exe
+C:\Users\Michael\Desktop\StepDX\StepDX\bin\x86\Debug\StepDX.pdb
+C:\Users\Michael\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.Game.resources
+C:\Users\Michael\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.Properties.Resources.resources
+C:\Users\Michael\Desktop\StepDX\StepDX\obj\x86\Debug\StepDX.csproj.GenerateResource.Cache
